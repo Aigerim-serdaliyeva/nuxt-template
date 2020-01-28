@@ -1,0 +1,101 @@
+.ghost {
+  animation: ghost 2.5s ease-in-out infinite both;
+  @keyframes ghost {
+      0% {
+          transform: translateY(20px);
+      }
+      50% {
+          transform: translateY(0);
+      }
+      100% {
+          transform: translateY(20px);
+      }
+  }
+}
+
+.bg-white-57 {
+    background: rgba(255, 255, 255, 0.57);
+}
+
+.object-fit-polyfill {
+    object-fit: cover;
+    object-position: center;
+    font-family: 'object-fit: cover; object-position: center;';
+}
+
+.vue-notification {
+    font-size: 14px !important;
+}
+
+/* .w-1400 {
+    max-width: 1400px;
+} */
+
+/* .container-1550 {
+  max-width: 1550px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+/* .container-1400 {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+/* .container-1280 {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.blue-rgba {
+  background: rgba(0, 48, 91, 0.76);
+}
+
+.shadow-title {
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-contact {
+  box-shadow: 0 0 10px #cee0e3;
+}
+
+.before-blue::before {
+  position: absolute;
+  content: '';
+  background: rgba(0, 48, 91, 0.76);
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  left: -1000px;
+}
+
+.after-blue::after {
+  position: absolute;
+  content: '';
+  background: rgba(0, 48, 91, 0.76);
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  right: -1000px;
+}
+
+.button {
+
+}
+
+.button--linear {
+    background: linear-gradient(246.49deg, rgba(255, 255, 255, 0) -8.21%, rgba(255, 255, 255, 0.22) 47.57%, rgba(255, 255, 255, 0) 119.13%), radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(103, 219, 255, 0.2) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    box-sizing: border-box;
+    border-radius: 46px;
+}
+
+.button-blue {
+  background: #3CA6CD;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+
