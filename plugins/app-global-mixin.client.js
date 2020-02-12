@@ -1,5 +1,5 @@
-import {WOW} from 'wowjs'
 import { extend } from '../util/extend-vue-app';
+import {WOW} from 'wowjs'
 
 export default function ({ app }) {
     extend(app, {
